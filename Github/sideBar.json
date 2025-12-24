@@ -1,0 +1,32 @@
+[
+  {
+    "sideBarId": "users",
+    "name": "用户管理",
+    "english": "Users",
+    "description": "系统核心用户账号及权限信息维护"
+  },
+  {
+    "sideBarId": "repositories",
+    "name": "代码仓库",
+    "english": "Repositories",
+    "description": "分布式版本控制系统中的所有代码项目"
+  },
+  {
+    "sideBarId": "deployments",
+    "name": "部署流水线",
+    "english": "Deployments",
+    "description": "持续集成与持续部署的自动化流水线记录"
+  },
+  {
+    "sideBarId": "organizations",
+    "name": "组织架构",
+    "english": "Organizations",
+    "description": "企业级团队与部门的层级结构定义"
+  },
+  {
+    "sideBarId": "billing",
+    "name": "计费账单",
+    "english": "Billing",
+    "description": "全站资源消耗及费用明细统计"
+  }
+]
