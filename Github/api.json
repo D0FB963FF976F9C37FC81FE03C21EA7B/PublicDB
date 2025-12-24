@@ -1,0 +1,169 @@
+{
+  "users": [
+    {
+      "id": "usr_829102",
+      "username": "alex_chen",
+      "email": "alex.c@nexus.com",
+      "role": "Super Admin",
+      "status": "Active",
+      "department": "Infrastructure",
+      "last_active": "2024-05-20 09:15:00",
+      "bio": "拥有超过 10 年的分布式系统架构经验。\n\n主要负责：\n1. 核心交易链路的稳定性建设，主导了 2023 年双十一全链路压测。\n2. 推动微服务架构从 Spring Cloud 向 Service Mesh (Istio) 转型，降低了业务代码与基础设施的耦合。\n3. 建设内部 Developer Platform，提升研发效能 40%。\n\n最近动态：\n正在研究 Rust 在云原生网关层面的应用，试图重构现有的 Java 网关以降低内存占用。"
+    },
+    {
+      "id": "usr_829103",
+      "username": "sarah_williams",
+      "email": "s.williams@nexus.com",
+      "role": "Product Owner",
+      "status": "Active",
+      "department": "Product",
+      "last_active": "2024-05-20 08:30:00",
+      "bio": "负责支付与结算业务线的产品规划。热衷于敏捷开发与用户体验优化。"
+    },
+    {
+      "id": "usr_829104",
+      "username": "mike_ross_dev",
+      "email": "m.ross@nexus.com",
+      "role": "Developer",
+      "status": "On Leave",
+      "department": "Frontend",
+      "last_active": "2024-05-15 18:00:00",
+      "bio": "前端架构组成员，主要维护内部 UI 组件库。"
+    },
+    {
+      "id": "usr_829105",
+      "username": "ci_bot_01",
+      "email": "bot-ci@nexus.com",
+      "role": "Service Account",
+      "status": "Active",
+      "department": "Automation",
+      "last_active": "2024-05-20 10:00:00",
+      "bio": "自动化 CI/CD 机器人，用于触发流水线构建。"
+    }
+  ],
+  "repositories": [
+    {
+      "id": "repo_101",
+      "name": "nexus-core-backend",
+      "language": "Java",
+      "visibility": "Private",
+      "stars": 450,
+      "updated_at": "2h ago",
+      "description": "核心业务后端服务单体仓库，包含用户中心、订单中心与库存中心模块。"
+    },
+    {
+      "id": "repo_102",
+      "name": "nexus-admin-web",
+      "language": "TypeScript",
+      "visibility": "Public",
+      "stars": 120,
+      "updated_at": "5m ago",
+      "description": "基于 React 18 + TailwindCSS 构建的现代化管理后台前端项目。"
+    },
+    {
+      "id": "repo_103",
+      "name": "ops-k8s-manifests",
+      "language": "YAML",
+      "visibility": "Private",
+      "stars": 85,
+      "updated_at": "1d ago",
+      "description": "生产环境 Kubernetes 集群的所有声明式配置文件 (Helm Charts)。"
+    },
+    {
+      "id": "repo_104",
+      "name": "data-analytics-spark",
+      "language": "Scala",
+      "visibility": "Private",
+      "stars": 210,
+      "updated_at": "3d ago",
+      "description": "大数据离线处理任务，基于 Spark SQL 实现的每日报表生成逻辑。"
+    }
+  ],
+  "deployments": [
+    {
+      "id": "dep_773821",
+      "service": "payment-gateway",
+      "env": "Production",
+      "version": "v2.4.0",
+      "status": "Success",
+      "triggered_by": "alex_chen",
+      "duration": "34s",
+      "logs": "[2024-05-20 10:00:01] [INFO]  Starting deployment process for service: payment-gateway\n[2024-05-20 10:00:02] [INFO]  Pulling docker image registry.nexus.com/payment:v2.4.0...\n[2024-05-20 10:00:15] [INFO]  Image pulled successfully (Size: 450MB)\n[2024-05-20 10:00:16] [WARN]  ConfigMap 'payment-config' has changed. Rolling restart triggered.\n[2024-05-20 10:00:18] [ERROR] Health check failed on pod payment-gx892-z (Connection refused).\n[2024-05-20 10:00:25] [INFO]  Retrying health check... Success.\n[2024-05-20 10:00:30] [INFO]  Traffic shifting: 10% -> 50% -> 100%.\n[2024-05-20 10:00:35] [INFO]  Deployment completed successfully in 34s."
+    },
+    {
+      "id": "dep_773820",
+      "service": "user-center",
+      "env": "Staging",
+      "version": "v1.9.2-beta",
+      "status": "Failed",
+      "triggered_by": "mike_ross_dev",
+      "duration": "1m 12s",
+      "logs": "[ERROR] Connection timed out while connecting to DB-Staging-01."
+    },
+    {
+      "id": "dep_773819",
+      "service": "frontend-dashboard",
+      "env": "Production",
+      "version": "v3.1.1",
+      "status": "Success",
+      "triggered_by": "ci_bot_01",
+      "duration": "45s",
+      "logs": "Build success. CDN cache invalidated."
+    }
+  ],
+  "organizations": [
+    {
+      "org_id": "org_001",
+      "name": "Acme Corp",
+      "plan": "Enterprise",
+      "members": 1250,
+      "region": "US-East",
+      "verified": "Yes",
+      "contact": "admin@acme.com"
+    },
+    {
+      "org_id": "org_002",
+      "name": "Startup Zero",
+      "plan": "Free",
+      "members": 5,
+      "region": "Asia-Pacific",
+      "verified": "No",
+      "contact": "founder@zero.io"
+    },
+    {
+      "org_id": "org_003",
+      "name": "Cloud Native Labs",
+      "plan": "Pro",
+      "members": 45,
+      "region": "EU-Central",
+      "verified": "Yes",
+      "contact": "ops@cnlabs.eu"
+    }
+  ],
+  "billing": [
+    {
+      "invoice_id": "INV-2024-05",
+      "period": "May 2024",
+      "amount": "$2,450.00",
+      "status": "Unpaid",
+      "due_date": "2024-06-01",
+      "download": "PDF"
+    },
+    {
+      "invoice_id": "INV-2024-04",
+      "period": "April 2024",
+      "amount": "$2,380.50",
+      "status": "Paid",
+      "due_date": "2024-05-01",
+      "download": "PDF"
+    },
+    {
+      "invoice_id": "INV-2024-03",
+      "period": "March 2024",
+      "amount": "$2,100.00",
+      "status": "Paid",
+      "due_date": "2024-04-01",
+      "download": "PDF"
+    }
+  ]
+}
