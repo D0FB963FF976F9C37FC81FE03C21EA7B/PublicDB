@@ -142,28 +142,29 @@
   ],
   "billing": [
     {
-      "invoice_id": "INV-2024-05",
-      "period": "May 2024",
-      "amount": "$2,450.00",
-      "status": "Unpaid",
-      "due_date": "2024-06-01",
-      "download": "PDF"
+      "metric": "CPU Usage",
+      "value": "45.8%",
+      "status": "Normal"
     },
     {
-      "invoice_id": "INV-2024-04",
-      "period": "April 2024",
-      "amount": "$2,380.50",
-      "status": "Paid",
-      "due_date": "2024-05-01",
-      "download": "PDF"
+      "metric": "Memory Usage",
+      "value": "6.2 GB",
+      "status": "Warning"
     },
     {
-      "invoice_id": "INV-2024-03",
-      "period": "March 2024",
-      "amount": "$2,100.00",
-      "status": "Paid",
-      "due_date": "2024-04-01",
-      "download": "PDF"
+      "metric": "Active Sessions",
+      "value": "1,284",
+      "status": "Normal"
+    },
+    {
+      "metric": "Network Latency",
+      "value": "24ms",
+      "status": "Excellent"
+    },
+    {
+      "metric": "Error Rate",
+      "value": "0.02%",
+      "status": "Normal"
     }
   ]
 }
