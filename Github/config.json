@@ -1,8 +1,8 @@
 {
-  "systemName": "Github",
+  "systemName": "GitHub数据湖",
   "systemSubTitle": "企业级分布式系统治理平台 - 集成 DevOps 流水线、多租户权限管理与实时审计。",
   "version": "2.4.0-rc.1",
-  "copyright": "© 2024 Nexus Tech Group. All rights reserved.",
+  "copyright": "© 2025 copyright.",
   "apiBaseUrl": "http://localhost:8080/api/v1",
   "sideBar": [
     {
