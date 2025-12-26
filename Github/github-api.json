@@ -60,7 +60,7 @@
       "title": "Chopped-Chili-Fish-Head-Microservices",
       "description": "剁椒鱼头：微服务化蒸制流程，通过发酵辣椒产生的酸性环境进行渗透压调优。",
       "tags": ["湘菜", "渗透压", "Fermented"],
-      "content": "# 剁椒鱼头：高并发蒸制系统\n\n![Fish Head](https://images.unsplash.com/photo-1626509135522-5492434cca99?auto=format&fit=crop&q=80&w=1000)\n\n## 1. 依赖配置\n*   **数据源**: 洞庭湖大头鱼（Fresh version）。\n*   **触发器**: 老坛发酵 30 天以上的剁椒。\n\n## 2. 异步处理\n泼油阶段（Final Hook）：\n```javascript\nfunction hotOilSplash(target) {\n  const temp = 200; // Celsius\n  target.trigger('aroma_explosion');\n}\n```"
+      "content": "# 剁椒鱼头：高并发蒸制系统\n\n![Fish Head](https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=1000)\n\n## 1. 依赖配置\n*   **数据源**: 洞庭湖大头鱼（Fresh version）。\n*   **触发器**: 老坛发酵 30 天以上的剁椒。\n\n## 2. 异步处理\n泼油阶段（Final Hook）：\n```javascript\nfunction hotOilSplash(target) {\n  const temp = 200; // Celsius\n  target.trigger('aroma_explosion');\n}\n```"
     },
     {
       "id": "xiang-002",
