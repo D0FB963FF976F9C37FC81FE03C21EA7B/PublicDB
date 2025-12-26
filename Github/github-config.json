@@ -18,6 +18,12 @@
       "name": "川菜",
       "english": "Si Chuan",
       "description": "浏览社区所有的川菜菜谱"
+    },
+    {
+      "sideBarId": "XiangCai",
+      "name": "湘菜",
+      "english": "Hu Nan",
+      "description": "浏览社区所有的湘菜菜谱"
     }
   ]
 }
