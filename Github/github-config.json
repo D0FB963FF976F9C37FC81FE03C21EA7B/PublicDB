@@ -3,39 +3,21 @@
   "sidebar": [
     {
       "sideBarId": "all",
-      "name": "全部菜谱",
+      "name": "粤菜",
       "english": "All Recipes",
-      "description": "浏览社区所有的精选菜谱"
+      "description": "浏览社区所有的粤菜菜谱"
     },
     {
       "sideBarId": "starred",
-      "name": "我的收藏",
+      "name": "鲁菜",
       "english": "Your Stars",
-      "description": "你标记为星标的高质量菜谱"
-    },
-    {
-      "sideBarId": "trending",
-      "name": "今日热门",
-      "english": "Trending Today",
-      "description": "过去24小时内最受欢迎的烹饪方案"
+      "description": "浏览社区所有的鲁菜菜谱"
     },
     {
       "sideBarId": "szechuan",
-      "name": "川味精选",
+      "name": "川菜",
       "english": "Szechuan Cuisine",
-      "description": "麻辣鲜香的传统川菜合集"
-    },
-    {
-      "sideBarId": "cantonese",
-      "name": "粤式点心",
-      "english": "Cantonese Dim Sum",
-      "description": "清淡原味，讲究火候的广东名点"
-    },
-    {
-      "sideBarId": "western",
-      "name": "西式料理",
-      "english": "Western Food",
-      "description": "牛排、意面与地中海风味"
+      "description": "浏览社区所有的川菜菜谱"
     }
   ]
 }
