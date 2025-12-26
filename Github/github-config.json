@@ -2,21 +2,21 @@
   "title": "GitHub",
   "sidebar": [
     {
-      "sideBarId": "all",
+      "sideBarId": "YueCai",
       "name": "粤菜",
-      "english": "All Recipes",
+      "english": "Guang Dong",
       "description": "浏览社区所有的粤菜菜谱"
     },
     {
-      "sideBarId": "starred",
+      "sideBarId": "LuCai",
       "name": "鲁菜",
-      "english": "Your Stars",
+      "english": "Shan Dong",
       "description": "浏览社区所有的鲁菜菜谱"
     },
     {
-      "sideBarId": "szechuan",
+      "sideBarId": "ChuanCai",
       "name": "川菜",
-      "english": "Szechuan Cuisine",
+      "english": "Si Chuan",
       "description": "浏览社区所有的川菜菜谱"
     }
   ]
